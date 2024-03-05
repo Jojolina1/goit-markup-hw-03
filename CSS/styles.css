@@ -243,6 +243,11 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-right: 635px;
   margin-left: 636px;
+  cursor: pointer;
+}
+.mainpage-button:hover,
+.mainpage-button:focus {
+  color: var(--link-color-hover);
 }
 .accent {
   font-weight: 500;
@@ -272,8 +277,12 @@ body {
   width: 116px;
   height: 48px;
   margin-left: 24px;
+  cursor: pointer;
 }
-
+.portofolio-button:hover,
+.portofolio-button:focus {
+  color: var(--link-color-hover);
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
